@@ -112,7 +112,9 @@ typedef struct _HB_SSL
       #pragma GCC diagnostic push
       #pragma GCC diagnostic ignored "-Wpedantic"
    #endif
-   #include "openssl/applink.c"
+   #include "C:\OSS\openssl\ms\applink.c"   
+   //#include "openssl/applink.c"
+   //#include "openssl/ms/applink.c"
    #if defined( HB_GCC_HAS_DIAG ) && defined( __clang__ )
       #pragma GCC diagnostic pop
    #endif
